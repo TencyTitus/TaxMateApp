@@ -1,48 +1,63 @@
-import React, { useState } from "react";
+import React from "react";
+import "./Home.css";
+import { Link } from "react-router-dom";
 
 function Home() {
-  const [income, setIncome] = useState("");
-  const [tax, setTax] = useState(null);
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const res = await fetch("http://localhost:3000/calculate-tax", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ income: parseFloat(income) }),
-      });
-
-      if (!res.ok) throw new Error("Failed to fetch tax");
-
-      const data = await res.json();
-      setTax(data.tax);
-    } catch (error) {
-      console.error("Error:", error);
-      setTax("Error calculating tax");
-    }
-  };
-
   return (
-    <div className="container">
-      <h1>Welcome to TaxMate</h1>
-      <form onSubmit={handleSubmit}>
-        <label>Enter Your Income:</label>
-        <input
-          type="number"
-          value={income}
-          onChange={(e) => setIncome(e.target.value)}
-          placeholder="Eg: 500000"
-          required
+    <div className="home-page">
+      <div className="hero-section">
+        <img
+          src="/images/banner.jpg"
+          alt="TaxMate Banner"
+          className="hero-image"
         />
-        <button type="submit">Calculate Tax</button>
-      </form>
+        <div className="hero-text">
+          <h1>Welcome to TaxMate</h1>
+          <p>Your personal income tax companion</p>
+          <a href="#features" className="scroll-down-btn">
+            Explore Features ↓
+          </a>
+        </div>
+      </div>
 
-      {tax !== null && (
-        <p>
-          {typeof tax === "number" ? `Your calculated tax is ₹${tax}` : tax}
-        </p>
-      )}
+      <div id="features" className="features-section">
+        <h2>What You Can Do</h2>
+        <div className="features-grid">
+          <div className="feature-card">
+            <img src="/images/calculate.png" alt="Calculate" />
+            <h3>Calculate Tax</h3>
+            <p>Enter your income and calculate your tax instantly.</p>
+            <Link to="/dashboard" className="feature-link">
+              Try Now →
+            </Link>
+          </div>
+
+          <div className="feature-card">
+            <img src="/images/history.png" alt="History" />
+            <h3>View Tax History</h3>
+            <p>Track your past calculations in one place.</p>
+            <Link to="/history" className="feature-link">
+              Check History →
+            </Link>
+          </div>
+
+          <div className="feature-card">
+            <img src="/images/profile.png" alt="Profile" />
+            <h3>Manage Profile</h3>
+            <p>Update your account information securely.</p>
+            <Link to="/profile" className="feature-link">
+              Edit Profile →
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="cta-section">
+        <h2>Ready to get started?</h2>
+        <Link to="/register" className="cta-button">
+          Create an Account
+        </Link>
+      </div>
     </div>
   );
 }

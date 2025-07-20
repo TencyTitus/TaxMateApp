@@ -6,22 +6,20 @@ const authRoutes = require("./routes/auth");
 const app = express();
 const PORT = 3000;
 
-// MongoDB connection
+// ✅ MongoDB connection (cleaned up)
 mongoose
-  .connect("mongodb://127.0.0.1:27017/taxmate", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect("mongodb://127.0.0.1:27017/taxmate")
   .then(() => console.log("✅ Connected to MongoDB"))
-  .catch((err) => console.error("MongoDB connection error:", err));
+  .catch((err) => console.error("❌ MongoDB connection error:", err));
 
-// Middleware
+// ✅ Middleware
 app.use(cors());
 app.use(express.json());
 
-// Routes
+// ✅ Routes
 app.use("/", authRoutes);
 
+// ✅ Tax calculation endpoint
 app.post("/calculate-tax", (req, res) => {
   const { income } = req.body;
   let tax = 0;
@@ -34,6 +32,7 @@ app.post("/calculate-tax", (req, res) => {
   res.json({ tax });
 });
 
+// ✅ Server listener
 app.listen(PORT, () => {
   console.log(`🚀 Server is running on http://localhost:${PORT}`);
 });
