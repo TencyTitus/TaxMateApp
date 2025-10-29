@@ -1,0 +1,486 @@
+/* Profile Page Styles */
+.profile-container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.profile-header {
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.profile-header-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.profile-header-inner {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+}
+
+.profile-logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-icon {
+  height: 2rem;
+  width: 2rem;
+  color: #4f46e5;
+}
+
+.profile-title {
+  margin-left: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.profile-main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+.profile-tabs {
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 1.5rem;
+}
+
+.profile-tabs-nav {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: -1px;
+}
+
+.profile-tab {
+  padding: 0.75rem 0;
+  font-weight: 500;
+  color: #6b7280;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.profile-tab.active {
+  color: #4f46e5;
+  border-bottom-color: #4f46e5;
+}
+
+.profile-tab:hover {
+  color: #4f46e5;
+}
+
+.success-message {
+  background-color: #f0fdf4;
+  border-left: 4px solid #22c55e;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.success-message-content {
+  display: flex;
+}
+
+.success-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  color: #22c55e;
+  margin-right: 0.75rem;
+}
+
+.success-text {
+  font-size: 0.875rem;
+  color: #15803d;
+}
+
+.error-message {
+  background-color: #fef2f2;
+  border-left: 4px solid #ef4444;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.error-message-content {
+  display: flex;
+}
+
+.error-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  color: #ef4444;
+  margin-right: 0.75rem;
+}
+
+.error-text {
+  font-size: 0.875rem;
+  color: #dc2626;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.loading-spinner {
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid #e5e7eb;
+  border-top: 2px solid #4f46e5;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.profile-section {
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.profile-section-header {
+  padding: 1.25rem 1.5rem;
+}
+
+.profile-section-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #111827;
+  margin: 0;
+}
+
+.profile-section-subtitle {
+  margin-top: 0.25rem;
+  max-width: 42rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.profile-section-content {
+  border-top: 1px solid #e5e7eb;
+  padding: 1.25rem 1.5rem;
+}
+
+.profile-form {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem 1rem;
+}
+
+.form-field {
+  grid-column: span 1;
+}
+
+.form-field-half {
+  grid-column: span 1;
+}
+
+.form-field-full {
+  grid-column: span 1;
+}
+
+.form-label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 0.25rem;
+}
+
+.required-asterisk {
+  color: #ef4444;
+}
+
+.form-input {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.form-input:disabled {
+  background-color: #f3f4f6;
+  cursor: not-allowed;
+}
+
+.form-textarea {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  min-height: 4rem;
+  resize: vertical;
+}
+
+.form-textarea:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.form-select {
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  display: block;
+  width: 100%;
+  padding: 0.5rem 2.5rem 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  background-color: white;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+  background-position: right 0.5rem center;
+  background-repeat: no-repeat;
+  background-size: 1.5em 1.5em;
+}
+
+.form-select:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 0.375rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  color: white;
+  background-color: #4f46e5;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #4338ca;
+}
+
+.btn-primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.5);
+}
+
+.btn-icon {
+  margin-right: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+.upload-section {
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.upload-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem 1rem;
+}
+
+/* file input and upload button are now separate columns; keep legacy group styles for other pages if used */
+
+.file-input {
+  border: 1px solid #d1d5db;
+  border-right: none;
+  border-radius: 0.375rem 0 0 0.375rem;
+  flex: 1;
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+}
+
+.file-input:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.file-upload-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid #4f46e5;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 0 0.375rem 0.375rem 0;
+  color: white;
+  background-color: #4f46e5;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.file-upload-btn:hover {
+  background-color: #4338ca;
+}
+
+.documents-table {
+  min-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table-header {
+  background-color: #f9fafb;
+}
+
+.table-header-cell {
+  padding: 0.75rem 1.5rem;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.table-header-cell-right {
+  text-align: right;
+}
+
+.table-body {
+  background-color: white;
+}
+
+.table-row {
+  transition: background-color 0.2s;
+}
+
+.table-row:hover {
+  background-color: #f9fafb;
+}
+
+.table-cell {
+  padding: 1rem 1.5rem;
+  white-space: nowrap;
+  font-size: 0.875rem;
+}
+
+.table-cell-primary {
+  font-weight: 500;
+  color: #111827;
+}
+
+.table-cell-secondary {
+  color: #6b7280;
+}
+
+.table-cell-right {
+  text-align: right;
+  font-weight: 500;
+}
+
+.download-link {
+  color: #4f46e5;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.download-link:hover {
+  color: #4338ca;
+}
+
+.download-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.disabled-icon {
+  color: #9ca3af;
+}
+
+.no-documents {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* Responsive Design */
+@media (min-width: 640px) {
+  .profile-header-content {
+    padding: 0 1.5rem;
+  }
+  
+  .profile-main {
+    padding: 1.5rem;
+  }
+  
+  .form-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .form-field-half {
+    grid-column: span 3;
+  }
+  
+  .form-field-full {
+    grid-column: span 6;
+  }
+  
+  .upload-form {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .profile-header-content {
+    padding: 0 2rem;
+  }
+  
+  .profile-main {
+    padding: 1.5rem 2rem;
+  }
+}

@@ -1,10 +1,17 @@
+require('dotenv').config();
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const authRoutes = require("./routes/auth");
+const userRoutes = require("./routes/user");
+const paymentRoutes = require("./routes/payment");
+const taxRecordRoutes = require("./routes/taxRecord");
+const notificationRoutes = require("./routes/notification");
+const path = require("path");
+const fs = require("fs");
 
 const app = express();
-const PORT = 3000;
+const PORT = 5000;
 
 // ✅ MongoDB connection (cleaned up)
 mongoose
@@ -16,8 +23,24 @@ mongoose
 app.use(cors());
 app.use(express.json());
 
+// Ensure uploads directory exists and serve it statically
+const uploadsDir = path.join(__dirname, "uploads");
+if (!fs.existsSync(uploadsDir)) {
+  fs.mkdirSync(uploadsDir, { recursive: true });
+}
+app.use("/uploads", express.static(uploadsDir));
+
 // ✅ Routes
 app.use("/", authRoutes);
+app.use("/api/user", userRoutes);
+app.use("/users", userRoutes); // Admin route for fetching all users
+app.use("/api/payments", paymentRoutes); // Includes admin route /api/payments/all-payments
+app.use("/api/tax-records", taxRecordRoutes); // Includes admin route /api/tax-records/all-tax-records
+app.use("/api/notifications", notificationRoutes);
+
+// Admin-specific routes (mapped to the routes above)
+app.use("/api/admin", paymentRoutes); // /api/admin/all-payments
+app.use("/api/admin", taxRecordRoutes); // /api/admin/all-tax-records
 
 // ✅ Tax calculation endpoint
 app.post("/calculate-tax", (req, res) => {

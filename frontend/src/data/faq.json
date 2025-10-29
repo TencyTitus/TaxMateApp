@@ -1,0 +1,326 @@
+[
+  {
+    "q": "What is tax liability and how much tax do I need to pay?",
+    "a": "Tax liability is the total amount of tax you owe to the government based on your taxable income. It's calculated by applying income tax slab rates to your taxable income (gross income minus deductions and exemptions). The amount you pay depends on which regime you choose and your income level. Use the Optimization tab in the AI Assistant to see your exact tax liability under both Old and New regimes.",
+    "source": { "title": "CBDT - Tax Liability Calculation", "url": "https://www.incometaxindia.gov.in/Pages/tax-calculations.aspx" },
+    "keywords": ["tax liability", "amount to pay", "tax payable", "how much tax", "tax calculation", "tax owed", "final tax"]
+  },
+  {
+    "q": "How to check which regime is perfect according to my income and deductions?",
+    "a": "To find the best regime for your situation, go to the AI Assistant and click on the 'Optimization' tab. Enter your income and deductions, and the tool will calculate your tax liability under both Old and New regimes. The Old Regime is generally better if you have high deductions (₹1.5 lakh+ in 80C, HRA, home loan interest, etc.). The New Regime is better if you have minimal deductions and prefer lower slab rates with simplified filing.",
+    "source": { "title": "CBDT - Regime Comparison Guide", "url": "https://www.incometax.gov.in/iec/foportal/help/regime-comparison" },
+    "keywords": ["which regime", "best regime", "perfect regime", "regime comparison", "old vs new", "choose regime", "income deduction", "suitable regime"]
+  },
+  {
+    "q": "How do I register for TaxMate?",
+    "a": "Click on 'Sign up' or 'Register' on the homepage. Fill in your full name, email, mobile number, date of birth, and create a password. Ensure your password is at least 6 characters long and both password fields match. Once registered, you can log in with your email and password.",
+    "source": { "title": "TaxMate Registration Guide", "url": "/register" },
+    "keywords": ["register", "sign up", "create account", "new user", "registration", "how to register"]
+  },
+  {
+    "q": "How do I login to TaxMate?",
+    "a": "Go to the Login page and enter your registered email and password. Click 'Login' to access your dashboard. If you've forgotten your password, use the 'Forgot Password' link to reset it via email.",
+    "source": { "title": "TaxMate Login Help", "url": "/login" },
+    "keywords": ["login", "sign in", "access account", "log in", "authentication"]
+  },
+  {
+    "q": "What should I do if I forgot my password?",
+    "a": "On the Login page, click 'Forgot Password'. Enter your registered email address, and you'll receive a password reset link via email. Click the link and follow the instructions to create a new password.",
+    "source": { "title": "Password Reset Guide", "url": "/forgot-password" },
+    "keywords": ["forgot password", "reset password", "can't login", "password recovery", "lost password"]
+  },
+  {
+    "q": "How do I add income in TaxMate?",
+    "a": "Go to Dashboard and click 'Add Income' or navigate to the Add Income page. Select your income source (Salary, Freelance, Investments, Other) and enter the amount in rupees. Click 'Save Income' to store it. Your income will be reflected in the Dashboard charts and tax calculations.",
+    "source": { "title": "Adding Income Guide", "url": "/income" },
+    "keywords": ["add income", "income entry", "salary", "freelance", "investment income", "how to add income"]
+  },
+  {
+    "q": "How do I add deductions in TaxMate?",
+    "a": "Navigate to Dashboard and click 'Add Deductions' or go to the Add Deduction page. Select the deduction section (80C, 80D, HRA, Section 24(b), Other) and enter the amount. Click 'Save Deduction' to add it. Deductions reduce your taxable income in the Old Regime.",
+    "source": { "title": "Adding Deductions Guide", "url": "/deductions" },
+    "keywords": ["add deduction", "deduction entry", "80c", "80d", "hra", "how to add deductions", "save deduction"]
+  },
+  {
+    "q": "How do I upload tax documents?",
+    "a": "Go to Profile page and click on 'Tax Documents' tab. Choose the document type (Salary Slip, Form 16, Investment Proof, Other), select your file (PDF, DOC, DOCX, or images), and click 'Upload'. Supported formats include PDF, Word documents, PNG, JPG, and GIF. Your uploaded documents will appear in the table below with download options.",
+    "source": { "title": "Document Upload Guide", "url": "/profile?tab=documents" },
+    "keywords": ["upload documents", "tax documents", "form 16", "salary slip", "investment proof", "document upload", "attach files"]
+  },
+  {
+    "q": "How do I update my profile information?",
+    "a": "Navigate to the Profile page and click on 'Profile Information' tab. Update your name, PAN number, Aadhaar number, phone, address, and bank account details. After making changes, click 'Save Changes' to update your profile. Note that email cannot be changed once registered.",
+    "source": { "title": "Profile Management", "url": "/profile" },
+    "keywords": ["update profile", "edit profile", "change details", "profile information", "pan", "aadhaar", "bank details"]
+  },
+  {
+    "q": "Where can I view my tax history?",
+    "a": "Go to the Tax History page from the Dashboard. You'll see a year-wise summary of your income, deductions, and tax paid for previous years. The page displays total years recorded, total income, and total tax paid with detailed breakdowns by year.",
+    "source": { "title": "Tax History Page", "url": "/history" },
+    "keywords": ["tax history", "previous filings", "past taxes", "year wise summary", "filing history", "view history"]
+  },
+  {
+    "q": "How does the Dashboard work?",
+    "a": "The Dashboard is your central hub showing: (1) Filing progress bar, (2) Quick action buttons for adding income/deductions/documents, (3) Charts showing income sources and deduction breakdowns, (4) Regime comparison chart, (5) Tax filing summary with total income, deductions, taxable income, and tax liability, (6) List of uploaded documents. Use it to manage all tax-related activities.",
+    "source": { "title": "Dashboard Overview", "url": "/user" },
+    "keywords": ["dashboard", "overview", "tax dashboard", "main page", "filing progress", "charts"]
+  },
+  {
+    "q": "Can I make payment without login?",
+    "a": "No, you need to login to TaxMate to make payments. This ensures your payment is securely linked to your account and tax records. After logging in, go to Dashboard and click 'Make Payment'. If you don't have an account, you'll need to register first with your email, password, and basic details.",
+    "source": { "title": "Payment Login Requirement", "url": "/login" },
+    "keywords": ["payment without login", "login required", "guest payment", "payment access", "must login", "no account payment"]
+  },
+  {
+    "q": "How do I make a payment?",
+    "a": "First, login to your TaxMate account. From the Dashboard, click 'Make Payment'. Enter the payment amount and select your payment method (Credit Card, Debit Card, Net Banking, or UPI). Fill in the required payment details including email and phone number. Click 'Pay' to process. After successful payment, you can download your payment receipt.",
+    "source": { "title": "Payment Guide", "url": "/payment" },
+    "keywords": ["payment", "make payment", "pay tax", "credit card", "debit card", "upi", "net banking", "receipt"]
+  },
+  {
+    "q": "What payment methods are accepted?",
+    "a": "TaxMate accepts: (1) Credit Cards, (2) Debit Cards, (3) Net Banking, (4) UPI. All payments are processed securely with industry-standard encryption. Card details are not stored on our servers.",
+    "source": { "title": "Payment Methods", "url": "/payment" },
+    "keywords": ["payment methods", "how to pay", "credit card", "debit card", "upi", "net banking", "accepted payments"]
+  },
+  {
+    "q": "How do I download my payment receipt?",
+    "a": "After making a successful payment, a 'Download Receipt' button will appear on the payment confirmation screen. Click it to download an HTML receipt containing transaction details, payment method, amount, and transaction ID. You can save or print this receipt for your records.",
+    "source": { "title": "Receipt Download", "url": "/payment" },
+    "keywords": ["receipt", "download receipt", "payment receipt", "transaction receipt", "proof of payment"]
+  },
+  {
+    "q": "What is Section 80D deduction?",
+    "a": "Section 80D allows deduction for medical insurance premiums paid for self, spouse, children, and parents. For individuals under 60: up to ₹25,000 for self/family + ₹25,000 for parents. For senior citizens (60+): up to ₹50,000. This deduction is available only under the Old Regime.",
+    "source": { "title": "Section 80D Guide", "url": "https://www.incometaxindia.gov.in/Pages/acts/income-tax-act.aspx" },
+    "keywords": ["80d", "medical insurance", "health insurance", "section 80d", "insurance deduction", "medical deduction"]
+  },
+  {
+    "q": "What is HRA deduction?",
+    "a": "House Rent Allowance (HRA) deduction is available for salaried employees living in rented accommodation under the Old Regime. The deduction is the minimum of: (1) Actual HRA received, (2) 50% of salary (metro cities) or 40% (non-metro), (3) Rent paid minus 10% of salary. Not available in New Regime.",
+    "source": { "title": "HRA Deduction Guide", "url": "https://www.incometaxindia.gov.in/Pages/deductions.aspx" },
+    "keywords": ["hra", "house rent allowance", "rent deduction", "hra exemption", "rental deduction"]
+  },
+  {
+    "q": "What is Section 24(b) deduction?",
+    "a": "Section 24(b) allows deduction for interest paid on home loan for self-occupied or rented property. For self-occupied: up to ₹2,00,000 per year. For rented property: no upper limit on interest deduction. Principal repayment qualifies under Section 80C. Available only under Old Regime.",
+    "source": { "title": "Section 24(b) Guide", "url": "https://www.incometaxindia.gov.in/Pages/acts/income-tax-act.aspx" },
+    "keywords": ["section 24b", "home loan", "housing loan", "interest deduction", "property loan", "24b deduction"]
+  },
+  {
+    "q": "How does the AI Assistant help?",
+    "a": "The AI Assistant has two modes: (1) Q&A Mode - Ask tax-related questions and get instant answers with sources, (2) Optimization Mode - Compare Old vs New regime tax calculations based on your income and deductions. It provides regime recommendations and shows potential savings. Click the robot icon at the bottom right to open.",
+    "source": { "title": "AI Assistant Guide", "url": "/user" },
+    "keywords": ["ai assistant", "chatbot", "tax help", "ask questions", "optimization", "regime comparison", "tax calculator"]
+  },
+  {
+    "q": "How to use the Optimization tab in AI Assistant?",
+    "a": "Click the AI Assistant robot icon, then click 'Optimization' tab. You can either use your saved income/deductions or enter values manually by checking the 'Enter values manually' box. The tool will show a comparison table with taxable income, applicable rates, and final tax liability for both Old and New regimes, along with a recommendation.",
+    "source": { "title": "Optimization Tool Guide", "url": "/user" },
+    "keywords": ["optimization", "regime calculator", "tax comparison", "calculate tax", "compare regimes", "optimization tab"]
+  },
+  {
+    "q": "Where can I see income and deduction charts?",
+    "a": "The Dashboard displays three main charts: (1) Income Sources - Pie chart showing breakdown by category (Salary, Freelance, Investments, etc.), (2) Deductions - Bar chart showing deductions by section (80C, 80D, HRA, etc.), (3) Tax Regime Comparison - Bar chart comparing tax liability under Old and New regimes.",
+    "source": { "title": "Dashboard Charts", "url": "/user" },
+    "keywords": ["charts", "graphs", "income chart", "deduction chart", "visual summary", "pie chart", "bar chart"]
+  },
+  {
+    "q": "What is filing progress on Dashboard?",
+    "a": "The filing progress bar at the top of Dashboard shows how complete your tax filing profile is. It increases when you: (1) Upload documents (+40%), (2) Add PAN number (+20%), (3) Add bank details (+20%), (4) Add address (+20%). Aim for 100% to ensure your profile is complete for filing.",
+    "source": { "title": "Filing Progress Guide", "url": "/user" },
+    "keywords": ["filing progress", "progress bar", "completion status", "profile completion", "tax filing status"]
+  },
+  {
+    "q": "How do I check notifications?",
+    "a": "Click on the 'Notifications' link in the header or navigate to the Notifications page. You'll see all your recent reminders, system updates, and important alerts with timestamps. Notifications help you stay on top of tax deadlines and filing requirements.",
+    "source": { "title": "Notifications Guide", "url": "/notifications" },
+    "keywords": ["notifications", "alerts", "reminders", "updates", "check notifications", "view alerts"]
+  },
+  {
+    "q": "What income sources can I add?",
+    "a": "TaxMate supports multiple income sources: (1) Salary - Income from employment, (2) Freelance - Income from self-employment or contract work, (3) Investments - Income from stocks, mutual funds, dividends, (4) Other - Any other taxable income. You can add multiple entries for each source.",
+    "source": { "title": "Income Sources Guide", "url": "/income" },
+    "keywords": ["income sources", "income types", "salary", "freelance", "investment", "add income types"]
+  },
+  {
+    "q": "What deduction sections can I claim?",
+    "a": "Available deduction sections in TaxMate: (1) 80C - Investments, insurance, PPF, EPF, ELSS (₹1.5L limit), (2) 80D - Medical insurance premiums, (3) HRA - House rent allowance, (4) Section 24(b) - Home loan interest, (5) Other - Additional eligible deductions. These apply to Old Regime only.",
+    "source": { "title": "Deduction Sections", "url": "/deductions" },
+    "keywords": ["deduction sections", "80c", "80d", "hra", "24b", "available deductions", "claim deductions"]
+  },
+  {
+    "q": "Is my payment information secure?",
+    "a": "Yes, absolutely. All payments are processed securely using industry-standard encryption. We do not store your card details on our servers. Your payment information is protected by PCI DSS compliance standards. You receive email confirmation for all transactions.",
+    "source": { "title": "Payment Security", "url": "/payment" },
+    "keywords": ["payment security", "secure payment", "card security", "pci dss", "encryption", "safe payment"]
+  },
+  {
+    "q": "What documents should I upload?",
+    "a": "Essential documents to upload: (1) Form 16 - TDS certificate from employer, (2) Salary Slips - Monthly salary statements, (3) Investment Proofs - 80C investments like PPF, ELSS, insurance, (4) Form 26AS - Tax credit statement, (5) AIS - Annual Information Statement, (6) Medical insurance receipts for 80D, (7) Rent receipts for HRA. Upload as PDF or images.",
+    "source": { "title": "Required Documents Guide", "url": "/profile?tab=documents" },
+    "keywords": ["required documents", "upload documents", "form 16", "26as", "ais", "investment proof", "what to upload"]
+  },
+  {
+    "q": "Can I edit or delete income and deduction entries?",
+    "a": "Currently, income and deduction entries are stored locally in your browser. To modify entries, you can clear your browser's local storage and re-enter the correct values. Alternatively, add correcting entries (negative amounts are not supported, so re-calculate and add fresh entries). Future updates may include edit/delete features.",
+    "source": { "title": "Managing Entries", "url": "/income" },
+    "keywords": ["edit income", "delete income", "modify entries", "change deduction", "update entries", "edit deduction"]
+  },
+  {
+    "q": "What is the difference between admin and user accounts?",
+    "a": "User accounts are for taxpayers to manage their income, deductions, documents, and filing. Admin accounts have additional privileges to view all users, manage system settings, and access the admin dashboard. Admins are designated during registration or via backend setup scripts.",
+    "source": { "title": "Account Types", "url": "/login" },
+    "keywords": ["admin account", "user account", "admin vs user", "account types", "admin privileges", "user roles"]
+  },
+  {
+    "q": "What are the tax slab rates for Old Regime?",
+    "a": "Old Regime tax slabs (FY 2023-24): Up to ₹2.5 lakh - Nil, ₹2.5L to ₹5L - 5%, ₹5L to ₹10L - 20%, Above ₹10L - 30%. Plus 4% cess on total tax. Rebate under Section 87A: Full tax rebate if taxable income is up to ₹5 lakh. Standard deduction of ₹50,000 is available.",
+    "source": { "title": "Old Regime Tax Slabs", "url": "https://www.incometaxindia.gov.in/Pages/tax-slabs.aspx" },
+    "keywords": ["old regime slabs", "tax slabs", "old regime rates", "tax rates", "slab rates old"]
+  },
+  {
+    "q": "What are the tax slab rates for New Regime?",
+    "a": "New Regime tax slabs (FY 2023-24): Up to ₹3 lakh - Nil, ₹3L to ₹6L - 5%, ₹6L to ₹9L - 10%, ₹9L to ₹12L - 15%, ₹12L to ₹15L - 20%, Above ₹15L - 30%. Plus 4% cess. Rebate under Section 87A: Full rebate if taxable income up to ₹7 lakh. Standard deduction of ₹50,000 is available.",
+    "source": { "title": "New Regime Tax Slabs", "url": "https://www.incometaxindia.gov.in/Pages/tax-slabs.aspx" },
+    "keywords": ["new regime slabs", "new tax slabs", "new regime rates", "tax rates new", "slab rates new"]
+  },
+  {
+    "q": "What is standard deduction?",
+    "a": "Standard deduction is a flat ₹50,000 deduction available to salaried individuals and pensioners under both Old and New Regimes. It's automatically applied when calculating taxable income from salary. No documentation is required to claim standard deduction.",
+    "source": { "title": "Standard Deduction Guide", "url": "https://www.incometaxindia.gov.in/Pages/deductions.aspx" },
+    "keywords": ["standard deduction", "50000 deduction", "salaried deduction", "automatic deduction"]
+  },
+  {
+    "q": "Can I switch between Old and New Regime every year?",
+    "a": "Yes, salaried individuals can switch between Old and New Regime every financial year. However, those with business income can opt for New Regime only once and cannot switch back. Choose the regime that minimizes your tax liability each year. Use the AI Assistant's Optimization tab to compare.",
+    "source": { "title": "Regime Switching Rules", "url": "https://www.incometax.gov.in/iec/foportal/help" },
+    "keywords": ["switch regime", "change regime", "regime switching", "switch every year", "old to new"]
+  },
+  {
+    "q": "How is tax calculated in TaxMate?",
+    "a": "TaxMate calculates tax using income tax slab rates. Formula: (1) Calculate Taxable Income = Gross Income - Deductions (Old Regime only), (2) Apply slab rates to taxable income, (3) Add 4% cess. The AI Assistant's Optimization tab shows detailed calculations for both regimes with comparison.",
+    "source": { "title": "Tax Calculation Method", "url": "/user" },
+    "keywords": ["tax calculation", "how tax calculated", "calculate tax", "tax formula", "computation"]
+  },
+  {
+    "q": "What is Form 16?",
+    "a": "Form 16 is a TDS (Tax Deducted at Source) certificate issued by employers to salaried employees. It contains details of salary paid and tax deducted during the financial year. Part A shows employer/employee details and TDS, Part B shows salary breakup and deductions. Essential for filing ITR.",
+    "source": { "title": "Form 16 Guide", "url": "https://www.incometaxindia.gov.in/Pages/forms.aspx" },
+    "keywords": ["form 16", "tds certificate", "salary certificate", "employer certificate", "what is form 16"]
+  },
+  {
+    "q": "What is Form 26AS?",
+    "a": "Form 26AS is your Tax Credit Statement showing all taxes deducted/collected/deposited against your PAN. It includes: TDS by employers/banks, TCS by sellers, advance tax/self-assessment tax paid, and high-value transactions. Download from Income Tax e-filing portal. Essential to verify tax credits while filing ITR.",
+    "source": { "title": "Form 26AS Guide", "url": "https://www.incometaxindia.gov.in/Pages/forms.aspx" },
+    "keywords": ["form 26as", "tax credit statement", "tds statement", "26as", "what is 26as", "tax credits"]
+  },
+  {
+    "q": "What is AIS (Annual Information Statement)?",
+    "a": "AIS is a comprehensive statement showing all financial transactions reported to Income Tax Department - salary, interest, dividends, securities transactions, mutual funds, property purchases, foreign remittances, etc. Available on IT portal. More detailed than Form 26AS. Use it to ensure all income is reported.",
+    "source": { "title": "AIS Guide", "url": "https://www.incometaxindia.gov.in/Pages/ais.aspx" },
+    "keywords": ["ais", "annual information statement", "financial transactions", "what is ais", "income statement"]
+  },
+  {
+    "q": "What is PAN and why do I need it?",
+    "a": "PAN (Permanent Account Number) is a 10-character alphanumeric identifier issued by Income Tax Department. It's mandatory for: filing income tax returns, opening bank accounts, high-value transactions, and claiming deductions. Format: ABCDE1234F. Add your PAN in the Profile section.",
+    "source": { "title": "PAN Information", "url": "https://www.incometaxindia.gov.in/Pages/pan.aspx" },
+    "keywords": ["pan", "pan number", "permanent account number", "what is pan", "why pan needed"]
+  },
+  {
+    "q": "What is Aadhaar and do I need it for taxes?",
+    "a": "Aadhaar is a 12-digit unique identity number issued by UIDAI. It's mandatory to link Aadhaar with PAN. Required for: filing ITR, claiming refunds, and identity verification. Add your Aadhaar in the Profile section. Deadline extensions may apply - check latest CBDT circulars.",
+    "source": { "title": "Aadhaar-PAN Linking", "url": "https://www.incometaxindia.gov.in/Pages/aadhaar-pan.aspx" },
+    "keywords": ["aadhaar", "aadhaar number", "aadhaar pan link", "what is aadhaar", "12 digit number"]
+  },
+  {
+    "q": "How do I link Aadhaar with PAN?",
+    "a": "Link Aadhaar with PAN by: (1) SMS - Send 'UIDPAN<12-digit Aadhaar><10-digit PAN>' to 567678 or 56161, (2) Income Tax e-filing portal - Login and use Link Aadhaar option, (3) By filing ITR - Aadhaar is auto-linked when you file ITR. Ensure name matches on both documents.",
+    "source": { "title": "Aadhaar-PAN Linking Process", "url": "https://www.incometaxindia.gov.in/Pages/aadhaar-pan-link.aspx" },
+    "keywords": ["link aadhaar pan", "aadhaar pan linking", "how to link", "aadhaar verification"]
+  },
+  {
+    "q": "What is ITR (Income Tax Return)?",
+    "a": "ITR is the form used to report your income, deductions, and tax liability to the Income Tax Department. Different ITR forms (ITR-1, ITR-2, ITR-3, ITR-4) for different taxpayer categories. Must be filed by July 31 for individuals (extended deadlines may apply). TaxMate helps you organize data for filing.",
+    "source": { "title": "ITR Filing Guide", "url": "https://www.incometaxindia.gov.in/Pages/itr.aspx" },
+    "keywords": ["itr", "income tax return", "tax return", "filing itr", "what is itr", "return filing"]
+  },
+  {
+    "q": "When is the deadline for filing income tax returns?",
+    "a": "Standard ITR filing deadline for individuals is July 31 of the assessment year. For example, FY 2023-24 (AY 2024-25) ITR due by July 31, 2024. Deadlines may be extended by CBDT. Late filing attracts penalties. Revised returns can be filed later with restrictions.",
+    "source": { "title": "ITR Filing Deadlines", "url": "https://www.incometaxindia.gov.in/Pages/deadlines.aspx" },
+    "keywords": ["itr deadline", "filing deadline", "last date", "tax deadline", "july 31", "due date"]
+  },
+  {
+    "q": "What happens if I miss the ITR filing deadline?",
+    "a": "If you miss July 31 deadline: (1) You can file belated return by December 31 with late fee - ₹5,000 (income > ₹5 lakh) or ₹1,000 (income ≤ ₹5 lakh), (2) No carry forward of losses, (3) Interest on unpaid tax under Sections 234A/234B/234C. File as soon as possible to minimize penalties.",
+    "source": { "title": "Belated Return Guide", "url": "https://www.incometaxindia.gov.in/Pages/belated-return.aspx" },
+    "keywords": ["miss deadline", "late filing", "belated return", "penalty", "late fee", "after deadline"]
+  },
+  {
+    "q": "What is TDS (Tax Deducted at Source)?",
+    "a": "TDS is tax deducted by the payer (employer, bank, etc.) before crediting payment to you. Common TDS: Salary (employer), Interest (bank), Professional fees, Rent. Deducted amount is deposited with government and shown in Form 26AS. You get credit for TDS when filing ITR. Reduces year-end tax liability.",
+    "source": { "title": "TDS Overview", "url": "https://www.incometaxindia.gov.in/Pages/tds.aspx" },
+    "keywords": ["tds", "tax deducted at source", "what is tds", "salary tds", "tds deduction"]
+  },
+  {
+    "q": "What is advance tax and when should I pay it?",
+    "a": "Advance tax is tax paid in installments during the year if your tax liability exceeds ₹10,000. Payment schedule: By June 15 (15%), Sept 15 (45%), Dec 15 (75%), March 15 (100%). Applicable to salaried with other income, business owners, freelancers. Use Form 280 or pay online via IT portal.",
+    "source": { "title": "Advance Tax Guide", "url": "https://www.incometaxindia.gov.in/Pages/advance-tax.aspx" },
+    "keywords": ["advance tax", "tax installments", "quarterly tax", "advance payment", "when to pay advance tax"]
+  },
+  {
+    "q": "What is self-assessment tax?",
+    "a": "Self-assessment tax is any remaining tax you pay before filing ITR after accounting for TDS, TCS, and advance tax. Calculated as: Total tax liability - TDS - Advance tax paid. Must be paid before filing ITR to avoid interest. Pay online through Income Tax portal using Challan 280.",
+    "source": { "title": "Self-Assessment Tax", "url": "https://www.incometaxindia.gov.in/Pages/self-assessment-tax.aspx" },
+    "keywords": ["self assessment tax", "remaining tax", "balance tax", "pay before filing", "challan 280"]
+  },
+  {
+    "q": "Can I get tax refund and how?",
+    "a": "You get tax refund if TDS/advance tax paid exceeds actual tax liability. To claim: (1) File ITR with correct bank account details (pre-validated in IT portal), (2) Verify ITR within 30 days, (3) IT Department processes refund, (4) Refund credited to your bank account (usually 4-8 weeks). Track status on IT portal.",
+    "source": { "title": "Tax Refund Process", "url": "https://www.incometaxindia.gov.in/Pages/refund.aspx" },
+    "keywords": ["tax refund", "get refund", "refund process", "excess tax", "claim refund", "refund status"]
+  },
+  {
+    "q": "What is Section 87A rebate?",
+    "a": "Section 87A provides tax rebate for resident individuals. Old Regime: Full tax rebate up to ₹12,500 if taxable income ≤ ₹5 lakh. New Regime: Full rebate up to ₹25,000 if taxable income ≤ ₹7 lakh (FY 2023-24). Automatically applied when filing ITR. Makes effective tax zero for eligible taxpayers.",
+    "source": { "title": "Section 87A Rebate", "url": "https://www.incometaxindia.gov.in/Pages/acts/income-tax-act.aspx" },
+    "keywords": ["87a", "section 87a", "tax rebate", "rebate", "zero tax", "5 lakh rebate", "7 lakh rebate"]
+  },
+  {
+    "q": "What is health and education cess?",
+    "a": "Health and Education Cess is 4% surcharge on income tax payable (not on income). It's automatically added to your tax calculation. Used by government for health and education programs. Applicable to both Old and New Regimes. Calculated as 4% of (Income Tax + Surcharge if applicable).",
+    "source": { "title": "Cess Information", "url": "https://www.incometaxindia.gov.in/Pages/cess.aspx" },
+    "keywords": ["cess", "4% cess", "health cess", "education cess", "surcharge", "what is cess"]
+  },
+  {
+    "q": "What is ITR verification and why is it important?",
+    "a": "After filing ITR, you must verify it within 30 days. Methods: (1) Aadhaar OTP (instant), (2) Net banking, (3) Demat account, (4) Bank account, (5) Send signed ITR-V by post to CPC Bangalore. Unverified ITR is invalid. Verification confirms you filed the return. Required for refund processing.",
+    "source": { "title": "ITR Verification Guide", "url": "https://www.incometaxindia.gov.in/Pages/itr-verification.aspx" },
+    "keywords": ["itr verification", "verify itr", "aadhaar otp", "itr-v", "e-verify", "30 days verification"]
+  },
+  {
+    "q": "What investment proofs do I need for 80C?",
+    "a": "For Section 80C deduction, submit proofs: (1) PPF - Passbook/statement, (2) ELSS - Mutual fund statement, (3) Life insurance - Premium receipt, (4) EPF - Form 12BA/26AS, (5) NSC - Certificate, (6) Home loan principal - Bank certificate, (7) Tuition fees - Fee receipts. Keep all proofs for 6+ years.",
+    "source": { "title": "80C Investment Proofs", "url": "https://www.incometaxindia.gov.in/Pages/deductions.aspx" },
+    "keywords": ["investment proof", "80c proof", "documents for 80c", "ppf proof", "elss proof", "insurance proof"]
+  },
+  {
+    "q": "How does TaxMate protect my data?",
+    "a": "TaxMate ensures data security through: (1) Encrypted connections (HTTPS), (2) Secure backend APIs with authentication, (3) Local storage for sensitive calculations (not transmitted), (4) No storage of payment card details, (5) PCI DSS compliance for payments, (6) Regular security updates. Your privacy is our priority.",
+    "source": { "title": "Data Security Policy", "url": "/user" },
+    "keywords": ["data security", "privacy", "data protection", "secure", "encryption", "safety"]
+  },
+  {
+    "q": "Can I access TaxMate from mobile?",
+    "a": "Yes! TaxMate is fully responsive and works on mobile browsers (Chrome, Safari, Firefox). Access all features - Dashboard, add income/deductions, upload documents, make payments, use AI Assistant - from your phone or tablet. No separate mobile app needed. Login with same credentials.",
+    "source": { "title": "Mobile Access", "url": "/login" },
+    "keywords": ["mobile", "mobile access", "phone", "tablet", "responsive", "mobile app"]
+  },
+  {
+    "q": "How do I logout from TaxMate?",
+    "a": "Click on your profile icon or 'Logout' link in the header/navigation menu. This will clear your session and redirect you to the login page. Always logout when using shared or public computers to protect your data.",
+    "source": { "title": "Logout Guide", "url": "/logout" },
+    "keywords": ["logout", "sign out", "log out", "exit", "end session"]
+  }
+]
